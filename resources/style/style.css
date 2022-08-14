@@ -1,0 +1,49 @@
+body{
+    padding: 5px;
+    background-color: lightblue;
+}
+
+img{
+    width: 100%;
+    height: 200px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+#whatwedo{
+    display: grid;
+    column-gap: 15px;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    margin: 2px;
+
+}
+
+#grid_upgrade{
+    text-align: center;
+    border: 1px solid black;
+    padding: 1px;
+    background-color: hsla(240, 100%, 50%, 0.8);
+
+}
+
+#grid_cctv{
+    text-align: center;
+    border: 1px solid black;
+    padding: 1px;
+    background-color: hsla(240, 100%, 50%, 0.8);
+}
+
+#grid_web{
+    text-align: center;
+    border: 1px solid black;
+    padding: 1px;
+    background-color: hsla(240, 100%, 50%, 0.8);
+}
+
+h2{
+    text-align: center;
+}
