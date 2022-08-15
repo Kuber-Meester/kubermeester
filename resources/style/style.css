@@ -5,7 +5,7 @@ body{
 }
 
 
-img{
+#img_header{
     width: 100%;
     height: 200px;
     border-radius: 10px;
@@ -31,6 +31,15 @@ a:hover{
     border-radius: 5px;
 }
 
+.whatwedo{
+    border: 1px solid black;
+    background-image: url(../images/wp2691568.jpg) ;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 8px;
+
+}
+
 #whatwedo{
     display: grid;
     column-gap: 15px;
@@ -45,7 +54,7 @@ a:hover{
     text-align: center;
     border: 1px solid black;
     padding: 1px;
-    background-color: hsla(240, 100%, 50%, 0.8);
+    background-color: #aaa9ad;
     border-radius: 8px;
 
 }
@@ -54,7 +63,7 @@ a:hover{
     text-align: center;
     border: 1px solid black;
     padding: 1px;
-    background-color: hsla(240, 100%, 50%, 0.8);
+    background-color: #aaa9ad;
     border-radius: 8px;
 }
 
@@ -62,7 +71,7 @@ a:hover{
     text-align: center;
     border: 1px solid black;
     padding: 1px;
-    background-color: hsla(240, 100%, 50%, 0.8);
+    background-color: #aaa9ad;
     border-radius: 8px;
 }
 
@@ -70,7 +79,7 @@ a:hover{
     text-align: center;
     border: 1px solid black;
     padding: 1px;
-    background-color: hsla(240, 100%, 50%, 0.8);
+    background-color: #aaa9ad;
     border-radius: 8px;
   
 }
@@ -79,13 +88,83 @@ a:hover{
     text-align: center;
     border: 1px solid black;
     padding: 1px;
-    background-color: hsla(240, 100%, 50%, 0.8);
+    background-color: #aaa9ad;
     border-radius: 8px;
 }
 
+.project{
+    border: 1px solid black;
+    background-image: url() ;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+#projects{
+    display: grid;
+    column-gap: 15px;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    margin: 2px;
+    row-gap: 10px;
+}
+
+#grid_dasmoto{
+    text-align: center;
+    border: 1px solid black;
+    padding: 1px;
+    background-color: #aaa9ad;
+    border-radius: 8px;
+}
+
+#grid_cheatsheet{
+    text-align: center;
+    border: 1px solid black;
+    padding: 1px;
+    background-color: #aaa9ad;
+    border-radius: 8px;
+}
+
+#grid_club{
+    text-align: center;
+    border: 1px solid black;
+    padding: 1px;
+    background-color: #aaa9ad;
+    border-radius: 8px;
+}
+
+#grid_web{
+    text-align: center;
+    border: 1px solid black;
+    padding: 1px;
+    background-color: #aaa9ad;
+    border-radius: 8px;
+}
+
+#grid_homepage{
+    text-align: center;
+    border: 1px solid black;
+    padding: 1px;
+    background-color: #aaa9ad;
+    border-radius: 8px;
+}
+
+
+
+#grid_jamming{
+    text-align: center;
+    border: 1px solid black;
+    padding: 1px;
+    background-color: #aaa9ad;
+    border-radius: 8px;
+}
+
+
+
+
 h2{
     text-align: center;
-    color: navy;
+    color:#aaa9ad;
     text-decoration: underline;
 }
 
@@ -93,11 +172,19 @@ h3{
     color: white;
 }
 
+.contact{
+    border: 1px solid black;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 8px;
+}
+
 #contact{
     background-color: hsla(240, 100%, 50%, 0.8);
     padding: 10px;
     border: 1px solid black;
     text-align: center;
+    border-radius: 8px;
 }
 
 #footer{
