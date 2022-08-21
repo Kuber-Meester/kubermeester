@@ -2,125 +2,123 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="Cyber Security">
-    <meta name="description" content="Web Design">
-    <meta name="author" content="Kuber Meester">
-    <meta name="description" content="HTML, CSS">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="./resources/style/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kuber Meester</title>
-    <link rel="stylesheet" href="./resources/style/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DynaPuff&display=swap" rel="stylesheet"> 
-
-
 </head>
 <body>
-    <header id="head">
+    <header id="head" >
         <h1>Kuber Meester</h1>
-        <h2 id="oog" >Jou Oog op die Kuber Ruimte</h2>
+        <h2>Oe in die Kuber Ruim</h2>
     </header>
-    <nav id="navbar">
-        <ul>
-            <a href="#whatwedo"><li>What we Do</li></a>
-            <a href="#projects"><li>Projects</li></a>
-            <a href="#contact"><li>Contact</li></a>
-        </ul>
+    <nav class="navbar">
+        <a class="active" href="#home">Home</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+
     </nav>
 
-    <div class="whatwedo">
-        <h2>What we Do</h2>
-        <div id="whatwedo">
-         <div id="grid_web">
-                <h3 >Front-End Web Design</h3>
-                <p>Web Design using HTML/CSS</p>
-                <p>Updating of Websites</p>
-                <p>SEO adjustment of Websites</p>
-         </div>
-         <div id="grid_cyber">
-            <h3>Cyber Security</h3>
-            <p>Network Scanning for Vulnerability</p>
-            <p>Domain Scanning for Vulnerability</p>
-            <p>Website Scanning for Vulnerability</p>
-            <p>Reporting on Vulnerability Found</p>
-
-        </div>
-        <div id="grid_upgrade">
-            <h3 >PC Upgrades</h3>
-                <p>Upgrade of Hardware and Software.</p>
-                <p>Installation Of Operating Systems</p>
-                <p>Installation and Updating Anit-Virus Software</p>
-        </div>
-        <div id="grid_network">
-            <h3>Network</h3>
-                <p>Network Cable Cat5/Cat6</p>
-                <p>Data Cabinet Upgrade and Clean-up</p>
-                
-        </div>
-        <div id="grid_cctv">
-            <h3 >CCTV</h3>
-                <p>Installation of Hik-Vision DVR/NVR's</p>
-                <p>New Camera Installation</p>
-                <p>Ip or Coxial Camera System</p>
-                <p>Loading of Mobile App (Internet Connection <br>
-                    needed For DVR/NVR)
-                </p>
+    <h2>About Us</h2>
+        <div id="about" class="row">
+            <div id="upgrade" class="column">
+                <h3>Pc Upgrades</h3>
+                <p>Upgrade of Hardware and Software</p>
+                <p>Reloadinng Operating System</p>
+                <p>Loading of Anti Virus Systems</p>
+                <p>Removal Of Virus</p>
+            </div>
+            <div id="webdesign" class="column">
+                <h3>Front End Webdesign</h3>
+                <p>Webpage Design using HTML, CSS</p>
+                <p>Webpage Updating</p>
+                <p>SEO adding to Webpage</p>
+            </div>
+            <div id="security" class="column">
+                <h3>Cyber Security</h3>
+                <p>Cyber Security Tesing of</p>
+                <p>Webpage, Domain</p>
+                <p>Cyber Security Tesing of Networks</p>
+                <p>Reports of Finding after Security Testing</p>
+            </div> 
         </div>
 
+    <h2>Projects</h2>
+    <div id="projects" class="row" >
+        <div id="dasmoto" class="project" class="column">         
+           <img src="./resources/images/Screenshot 2022-08-15 at 11-35-50 Dasmoto's Arts & Crafts.png" alt="Dasmoto" width="100%">
+           <a href="https://kuber-meester.github.io/Dasmoto/">
+           <button class="btn" >Click for Info</button>
+           </a>
         </div>
+        <div id="cheat" class="project" class="column" >     
+            <img src="./resources/images/Screenshot 2022-08-15 at 16-15-30 Cheat Sheet.png" alt="Cheat Sheet" width="100%">
+            <a href="https://kuber-meester.github.io/cheatSheet/">
+            <button class="btn" >Click for Info</button>
+            </a>
+        </div>
+        <div id="carclub" class="project" class="column" >
+            <img src="./resources/images/construction-realistic-with-orange-helmet-caution-placard-fencing-tape-with-yellow-black-stripes_1284-28793.jpg" alt="construction" width="100%">
+            <button class="btn" >Click for Info</button>
+        </div>
+        <div id="homepage" class="project" class="column" >           
+            <img src="./resources/images/construction-realistic-with-orange-helmet-caution-placard-fencing-tape-with-yellow-black-stripes_1284-28793.jpg" alt="construction" width="100%">
+            <button class="btn" >Click for Info</button>
+        </div>
+        <div id="company" class="project" class="column" >
+            <img src="./resources/images/construction-realistic-with-orange-helmet-caution-placard-fencing-tape-with-yellow-black-stripes_1284-28793.jpg" alt="construction" width="100%">
+            <button class="btn" >Click for Info</button>
+        </div>
+        <div id="jamming" class="project" class="column" >
+            <img src="./resources/images/construction-realistic-with-orange-helmet-caution-placard-fencing-tape-with-yellow-black-stripes_1284-28793.jpg" alt="construction" width="100%">
+            <button class="btn" >Click for Info</button>
+        </div>
+
     </div>
-    <div class="project">
-        <h2>Projects</h2>
-        <div id="projects">
-            <div id="grid_dasmoto">
-                <h3>Dasmoto's Arts & Crafts</h3>
-                <a id="project_link" href="https://kuber-meester.github.io/Dasmoto/"><p>Fictional Website</p></a>
-                <img  class="responsive" src="./resources/images/Screenshot 2022-08-15 at 11-35-50 Dasmoto's Arts & Crafts.png" alt="Dasmoto">       
-                
-            </div>
-            <div id="grid_cheatsheet">
-                <h3>Cheat Sheet</h3>
-                <a id="project_link" href="https://kuber-meester.github.io/cheatSheet/"><p>Fictional Cheat Sheet</p></a>
-                <img class="responsive"  src="./resources/images/Screenshot 2022-08-15 at 16-15-30 Cheat Sheet.png" alt="Cheat Sheet">
-            </div>
-            <div id="grid_club">
-                <h3>Car Club Website</h3>
-                <img class="responsive"  src="./resources/images/construction-realistic-with-orange-helmet-caution-placard-fencing-tape-with-yellow-black-stripes_1284-28793.jpg" alt="under constrution">
-                <p>Fictional Car Club</p>
-            </div>
-            <div id="grid_web" >
-                <h3>Web Design System</h3>
-                <img class="responsive"  src="./resources/images/construction-realistic-with-orange-helmet-caution-placard-fencing-tape-with-yellow-black-stripes_1284-28793.jpg" alt="under constrution" >
-                <p>Web Design System</p>
+    <h2>Contact Info</h2>
+    <div id="contact" >
+        <form action="//submit.form" id="ContactUs100" method="post" onsubmit="return ValidateForm(this);">
+            <script type="text/javascript">
+            function ValidateForm(frm) {
+            if (frm.Name.value == "") { alert('Name is required.'); frm.Name.focus(); return false; }
+            if (frm.FromEmailAddress.value == "") { alert('Email address is required.'); frm.FromEmailAddress.focus(); return false; }
+            if (frm.FromEmailAddress.value.indexOf("@") < 1 || frm.FromEmailAddress.value.indexOf(".") < 1) { alert('Please enter a valid email address.'); frm.FromEmailAddress.focus(); return false; }
+            if (frm.Comments.value == "") { alert('Please enter comments or questions.'); frm.Comments.focus(); return false; }
+            return true; }
+            </script>
+            <table style="width:100%;max-width:550px;border:0;" cellpadding="8" cellspacing="0">
+            <tr> <td>
+            <label for="Name">Name*:</label>
+            </td> <td>
+            <input name="Name" type="text" maxlength="60" style="width:100%;max-width:250px;" />
+            </td> </tr> <tr> <td>
+            <label for="PhoneNumber">Phone number:</label>
+            </td> <td>
+            <input name="PhoneNumber" type="text" maxlength="43" style="width:100%;max-width:250px;" />
+            </td> </tr> <tr> <td>
+            <label for="FromEmailAddress">Email address*:</label>
+            </td> <td>
+            <input name="FromEmailAddress" type="text" maxlength="90" style="width:100%;max-width:250px;" />
+            </td> </tr> <tr> <td>
+            <label for="Comments">Comments*:</label>
+            </td> <td>
+            <textarea name="Comments" rows="7" cols="40" style="width:100%;max-width:350px;"></textarea>
+            </td> </tr> <tr> <td>
+            * - required fields
+            </td> <td>
+            <input name="skip_Submit" type="submit" value="Submit" />
+            <script src="https://www.100forms.com/js/FORMKEY:MF68E2NFCKKX/SEND:my@email.com" type="text/javascript"></script>
+            </td> </tr>
+            </table>
+            </form>
+            
 
-            </div>
-            <div id="grid_homepage">
-                <h3>Company Home Page</h3>
-                <img class="responsive"  src="./resources/images/construction-realistic-with-orange-helmet-caution-placard-fencing-tape-with-yellow-black-stripes_1284-28793.jpg" alt="under constrution" >
-                <p>Company Home Page</p>
-
-            </div>
-            <div id="grid_jamming" >
-                <h3>Jamming React App</h3>
-                <img class="responsive" src="./resources/images/construction-realistic-with-orange-helmet-caution-placard-fencing-tape-with-yellow-black-stripes_1284-28793.jpg" alt="under constrution">
-                <p>Music Playlist app Created with React</p>
-            </div>
-        </div>
     </div>
-    <div class="contact">
-        <h2>Contact</h2>
-        <div id="contact">
-        <p>To Email us Click on the Mail link</p>
-        <address>
-            <a href="mailto:kuber.meester@outlook.com">Mail Us</a>
-        </address>
 
-        </div>
-    </div>
     <footer>
-        <p id="footer">Copyright &#169 Kuber Meester</p>
+        <p>&copy Kuber Meester 2022</p>
     </footer>
-
+    
 </body>
 </html>
